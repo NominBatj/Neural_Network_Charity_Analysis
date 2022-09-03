@@ -8,7 +8,7 @@ The purpose of the analysis is to use charity_data dataset and apply the knowedg
 
 
 
-Data Preprocessing
+### Data Preprocessing
 
 - What variable(s) are considered the target(s) for your model?
 
@@ -27,6 +27,9 @@ One of the columns in the dataset called "IS_SUCCESSFUL" is the target of the mo
 Two columns were removed from the model, 'EIN' and 'NAME' because the information they provided is not essential for predicting success of future funding.
 
 ![3](https://user-images.githubusercontent.com/66500222/188255344-ac6d9757-bab0-43f3-876b-0b4b9cb3fb40.png)
+
+
+### Compiling, Training, and Evaluating the Model
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
