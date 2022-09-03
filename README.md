@@ -43,7 +43,11 @@ I was not able to achieve the target model preformance in the first phase. The h
 
 - What steps have you taken to try and improve the performance of the model?
 
-In the second step, I tried to optimize the model by adding hidden layers, decreasing the number of neurons, increasing the epochs, and using the same activation function for each model layer. I managed to increase the performance of the model to 0.7235, but only once, which I considered an anomaly. I changed the number of hidden layers, the number of neorons and epochs several times, but could not create a result that increased the performance of the deep learning model to .
+In the second step, I tried to optimize the model by adding hidden layers, decreasing the number of neurons, increasing the epochs, and using the same activation function for each model layer. I managed to increase the performance of the model to 0.7235, but only once, which I considered an anomaly. 
+
+![5](https://user-images.githubusercontent.com/66500222/188255864-e0b5beae-d221-41d7-b3a9-281064db6511.png)
+
+
 
 ## Summary
 
