@@ -28,6 +28,22 @@ Two columns were removed from the model, 'EIN' and 'NAME' because the informatio
 
 ![3](https://user-images.githubusercontent.com/66500222/188255344-ac6d9757-bab0-43f3-876b-0b4b9cb3fb40.png)
 
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+This model consists of two stages of compilation, training and evaluation. At the first stage, two hidden layers and one outer layer were used. The neurons were arranged 80 in the first layer, 30 in the second layer, and 1 in the third layer. At the first stage, three activation functions were used: "relu", "sigmoidal" and "linear". Training epochs have been set to 10.
+
+![4](https://user-images.githubusercontent.com/66500222/188255467-d88be7e9-dbbd-4631-bfa2-2889e998641f.png)
+
+- Were you able to achieve the target model performance?
+
+I was not able to achieve the target model preformance in the first phase. The highest accuracy evaluated by the model was 0.4668
+
+![6](https://user-images.githubusercontent.com/66500222/188255652-cea86b00-fffc-4b8a-bca7-725e5d2ffc3b.jpg)
+
+
+- What steps have you taken to try and improve the performance of the model?
+
+In the second step, I tried to optimize the model by adding hidden layers, decreasing the number of neurons, increasing the epochs, and using the same activation function for each model layer. I managed to increase the performance of the model to 0.7235, but only once, which I considered an anomaly. I changed the number of hidden layers, the number of neorons and epochs several times, but could not create a result that increased the performance of the deep learning model to .
 
 ## Summary
 
