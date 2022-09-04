@@ -55,5 +55,6 @@ In the second step, I tried to optimize the model by adding hidden layers, decre
 ## Summary
 
 
-
 The dataset was read into a Jupyter Notebook environment using an mlenv type file, where it was pre-processed using density plots to visualize the number of target variable values, fitting and transformation was performed on a list of variables using OneHotEncoder, and the processed data was split into features and target arrays, and then again split into a dataset for training and testing. A Scikit_Learn StandardScaler was instantiated, data scaled, compiled, trained and tested for use in a neural network. The data was trained with a sequential neural network model, and various number of layers, various number of nodes, and several activation functions were applied to the dataset throughout the analysis to predict reliability and evaluate the model at the highest level of optimization.
+
+In the conclusion, I would recommend reducing the amount of unnecessary data, limiting the number of hidden layers to two due to the size of the dataset, and reducing the number of nodes and epochs. Since the amount of data is limited by past organizations that have been funded by the Alphabet Soup Foundation, it doesn't make sense in my opinion to increase the amount of data in the dataset to improve performance. Rather, reducing the noise, removing unnecessary data from the data set will create the best results for predicting the success of future funding.
